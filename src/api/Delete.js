@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://megalord890.pythonanywhere.com/api/';
+const baseURL = 'https://megalord890.pythonanywhere.com/api/';
 
 export const deleteItem = async (api, id) => {
   try {
